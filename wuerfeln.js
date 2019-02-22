@@ -1,7 +1,10 @@
 // http://jsfiddle.net/M4teA/2/
 //
 $( document.body ).click(function() {
-    alert('Hi I am bound to the body!');
+    var colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple'];
+    var color = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = color;
+
 });
 
 // $( '#bar' ).click(function(e) {
