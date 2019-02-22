@@ -1,0 +1,11 @@
+#main {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(200,0,0,0.5);
+    text-align: center;
+}
+
+#text {
+   font-size: 26px;
+   line-height: 140px;
+}
