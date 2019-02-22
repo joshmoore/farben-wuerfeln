@@ -4,7 +4,6 @@ $( document.body ).click(function() {
     var colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple'];
     var color = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = color;
-
 });
 
 // $( '#bar' ).click(function(e) {
