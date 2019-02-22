@@ -17,3 +17,8 @@ jQuery.Event.prototype.stopPropagation = function() {
     this.target.nodeName !== 'SPAN' && _old.apply( this, arguments );
 };
 
+
+container.addEventListener('touchstart', () => {});
+container.addEventListener('touchend', () => {});
+container.addEventListener('touchcancel', () => {});
+container.addEventListener('touchmove', () => {});
